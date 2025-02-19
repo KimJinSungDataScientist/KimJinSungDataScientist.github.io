@@ -1,21 +1,21 @@
 # _config.yml
 
-# 사이트 상단에 표시되는 타이틀(로고 역할). 테마 로고를 없애려면 비워두거나 원하는 값으로 변경.
+# 사이트 상단(혹은 브라우저 탭)에 표시되는 타이틀. 비워두면 로고/텍스트 출력 X
 title: ""
 
-# 사이트 설명(테마 기본 문구 제거)
+# 사이트 설명 (SEO 등에서 사용)
 description: ""
 
 # 사이트 저자명
-author: Jinsung Kim
+author: "Jinsung Kim"
 
-# 아바타 혹은 로고 이미지 경로(필요 없으면 제거 가능)
+# 아바타(프로필 사진) 경로. 필요 없으면 제거 가능
 avatar: /logo.png
 
 # 이메일
 email: kimjinsung8290@naver.com
 
-# 사용 중인 플러그인들
+# 사용 중인 플러그인 (jekyll-feed 제거)
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -25,9 +25,20 @@ plugins:
 # 한 페이지당 포스트 개수
 paginate: 10
 
-# Google Analytics, Disqus 등을 사용하려면 아래 부분 주석 해제 후 설정
-# google_analytics:
-# disqus:
+# 언어 설정
+lang: en
+
+# 테마 스킨(다크)
+skin: midnight
+
+# 사이트 URL (커스텀 도메인 또는 GitHub Pages 주소 사용 가능)
+url: ""
+
+# 소셜 미디어 (GitHub만 남기고 Subscribe, Twitter 등 제거)
+social:
+  name: "Jinsung Kim"
+  links:
+    - "https://github.com/KimJinSungDataScientist"
 
 # 빌드에서 제외할 항목
 exclude:
@@ -35,23 +46,6 @@ exclude:
   - README.md
   - jekyll-theme-hamilton.gemspec
 
-# 언어 설정
-lang: en
-
-# 사이트 URL (GitHub Pages에서 커스텀 도메인 쓸 경우 여기에 설정)
-url:
-
-# 소셜 미디어 설정
-# - subscribe, twitter 등을 제거하고 GitHub 링크만 남깁니다.
-social:
-  name: "Jinsung Kim"
-  links:
-    - "https://github.com/KimJinSungDataScientist"
-
-# 아래는 테마에서 사용하는 twitter 설정이지만, 사용하지 않으려면 주석 처리 혹은 삭제
-# twitter:
-#   username: "Jinsung Kim"
-#   card: summary
-
-# 로고 설정(테마에 따라 달라질 수 있으므로 불필요하면 삭제)
-# logo: logo.png
+# 필요한 경우 Google Analytics, Disqus 설정
+# google_analytics:
+# disqus:

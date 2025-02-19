@@ -1,1 +1,45 @@
 // Placeholder to allow customizing styles.
+/* _sass/hamilton/custom-styles.scss */
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(135deg, #1a1a1a, #333333);
+    border-radius: 8px;
+  }
+  
+  .hero-title {
+    font-size: 2.4rem;
+    color: #00f0ff; /* 밝은 하늘색 */
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: #eeeeee;
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #ffd369; /* 포인트 색상 */
+  }
+  
+  /* 본문 폰트, 색상 */
+  .page-content {
+    font-family: 'Fira Code', monospace; /* 개발자 느낌의 폰트 (Google Fonts) */
+    color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  /* 상단 큰 제목 블록(page-header) 숨기기 */
+  .page-header {
+    display: none;
+  }
+  
+  /* 추가로 상단/하단 여백을 더 줄이고 싶다면 */
+  .wrapper {
+    padding-top: 0;
+  }
+  

@@ -1,4 +1,5 @@
-- title: About
+# _data/navigation.yml
+- title: Home
   url: /
 - title: Publications
   url: /publications/

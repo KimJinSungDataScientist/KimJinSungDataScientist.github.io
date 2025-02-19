@@ -3,18 +3,19 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+
 ## Working Papers
 
 - **Optimising the Neuropsychological Test for Screening People with Mild Cognitive Impairment Using Hierarchical Reinforcement Learning Agent**  
   *J. S. Kim, H. J. Ko, W. Kim, B. H. Yun, S. Y. Park, B. R. Kim, J. H. Lee*, G. H. Kim, J. W. Kim (Accepted)*
 
-- **Can Software Robot Enhance Cognitive Functions of Senior People?: An Longitudinal Exploratory Field Study with Korean Older Adults**  
+- **Can Software Robot Enhance Cognitive Functions of Senior People?: A Longitudinal Exploratory Field Study with Korean Older Adults**  
   *Yun, B. H., Ko, H. J., Kim, B. H., Noh, M. H., Park, S. Y., Kim, J. S., Kim, W., Park, S., Lee, J. H*, Kim, G. H*, J. W. Kim (In revision)*
 
 - **From Prodromal to Preclinical: Detecting Amyloid-Beta Through Mobile Gaze Analysis**  
   *J. S. Kim, W. Kim, S. Y. Park, H. J. Ko, B. H. Yun, Y. Kim, D. H. Kim, U. J. Kwon, S. K. Lim, B. R. Kim, J. H. Lee* (Under Review)*
 
-- **Substitute or Supplement? : The Role of Multi-Modal Digital Biomarkers on the Mobile Assessment Tools for Early Screening of Cognitive Impairment**  
+- **Substitute or Supplement?: The Role of Multi-Modal Digital Biomarkers on the Mobile Assessment Tools for Early Screening of Cognitive Impairment**  
   *J. S. Kim*, W. Kim*, S. Y. Park, H. J. Ko, B. H. Yun, Y. Kim, D. H. Kim, U. J. Kwon, S. K. Lim, B. R. Kim, J. H. Lee*, G. H. Kim*, J. W. Kim (Submitted)*
 
 - **Rapid yet reliable: Optimising mobile cognitive assessments tool for older adults**  

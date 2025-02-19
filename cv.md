@@ -3,6 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 ---
+
 ## Personal Information
 
 **Name:** Jinsung Kim  
