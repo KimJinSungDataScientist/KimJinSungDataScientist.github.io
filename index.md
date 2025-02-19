@@ -11,8 +11,9 @@ permalink: /
   </h2>
   <p class="hero-subtitle">
     Master’s Degree Researcher |<br>
-    AI & Informatics, Sangmyung University<br><br><br>
-    A
+    AI & Informatics, Sangmyung University<br>
+    <br>
+    <br>
   </p>
 </div>
 
