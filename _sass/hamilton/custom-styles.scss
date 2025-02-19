@@ -1,44 +1,52 @@
-// Placeholder to allow customizing styles.
 /* _sass/hamilton/custom-styles.scss */
 
 /* Hero Section */
 .hero {
+    /* 페이지 상단에 간격을 주고 싶다면 margin-top 조정 */
+    margin: 40px auto 40px auto; /* top: 40px, bottom: 40px */
+  
+    /* 폭 제한으로 너무 넓어지지 않도록 */
+    max-width: 800px;
+  
+    /* 패딩(세로 높이)을 줄여서 크기가 너무 커 보이지 않도록 조정 */
+    padding: 20px 30px;
+  
     text-align: center;
-    padding: 60px 20px;
-    margin-bottom: 40px;
     background: linear-gradient(135deg, #1a1a1a, #333333);
     border-radius: 8px;
   }
   
   .hero-title {
-    font-size: 2.4rem;
-    color: #00f0ff; /* 밝은 하늘색 */
+    font-size: 2.2rem;
+    color: #00f0ff;
     margin-bottom: 10px;
   }
   
   .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #eeeeee;
     margin: 0;
+    text-align: center; /* 중앙 정렬 */
   }
   
+  /* 강조 색상 */
   .highlight {
-    color: #ffd369; /* 포인트 색상 */
+    color: #ffd369;
   }
   
-  /* 본문 폰트, 색상 */
+  /* 본문 폰트, 색상 등 */
   .page-content {
-    font-family: 'Fira Code', monospace; /* 개발자 느낌의 폰트 (Google Fonts) */
+    font-family: 'Fira Code', monospace;
     color: #f0f0f0;
     line-height: 1.6;
   }
   
-  /* 상단 큰 제목 블록(page-header) 숨기기 */
+  /* 상단 큰 제목(page-header) 숨기기 */
   .page-header {
     display: none;
   }
   
-  /* 추가로 상단/하단 여백을 더 줄이고 싶다면 */
+  /* 상단 전체 패딩이 필요 없으면 최소화 */
   .wrapper {
     padding-top: 0;
   }
