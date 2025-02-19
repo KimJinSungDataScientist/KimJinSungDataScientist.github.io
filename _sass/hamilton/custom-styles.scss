@@ -1,34 +1,31 @@
 .hero {
-    /* 화면 상단/하단 여백 */
-    margin: 20px auto 20px auto;
+    /* 상단 60px, 하단 20px 정도 여백을 줘서 박스가 페이지와 떨어져 보이도록 */
+    margin: 60px auto 20px auto;
   
-    /* 폭 제한 */
+    /* 너무 넓어지지 않도록 최대 폭 제한 */
     max-width: 800px;
   
-    /* 세로 높이를 어느 정도 확보하여, flex 중앙 정렬이 눈에 확연히 보이도록 */
-    min-height: 180px;
-  
-    /* 배경 및 모서리 */
+    /* 배경 및 둥근 모서리 */
     background: linear-gradient(135deg, #1a1a1a, #333333);
     border-radius: 8px;
   
-    /* 중앙 정렬 (가로·세로) */
+    /* 수직·수평 중앙 정렬을 위한 Flexbox 설정 */
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* 수직 중앙 */
-    align-items: center;      /* 수평 중앙 */
-  
-    /* 텍스트 중앙 정렬 */
+    justify-content: center; /* 세로(수직) 중앙 */
+    align-items: center;     /* 가로(수평) 중앙 */
     text-align: center;
   
-    /* 안쪽 여백 최소화 -> 텍스트가 박스 내부에서 딱 중앙 */
-    padding: 0;
+    /* 세로 공간 확보: 위·아래 30px씩 패딩을 줘서 텍스트가 가운데 위치 */
+    padding: 30px 0;
+  
+    /* min-height를 사용하지 않고, 패딩으로 높이 확보 */
   }
   
   .hero-title {
     font-size: 1.8rem;
     color: #00f0ff;
-    margin: 0; /* 여백 제거로 정확한 중앙 배치 */
+    margin: 0 0 8px 0; /* 제목 아래에 8px 정도만 띄워줌 */
   }
   
   .hero-subtitle {
