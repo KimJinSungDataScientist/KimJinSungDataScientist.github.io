@@ -1,1 +1,35 @@
 // Placeholder to allow customizing styles.
+/* _sass/hamilton/custom-styles.scss */
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(135deg, #222831, #393e46);
+    border-radius: 8px;
+  }
+  
+  .hero-title {
+    font-size: 2.4rem;
+    color: #00f0ff; /* 밝은 하늘색 느낌 */
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: #eeeeee;
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #ffd369; /* 강조 텍스트 색상 */
+  }
+  
+  /* 본문 글꼴이나 색상 조정 */
+  .page-content {
+    font-family: 'Fira Code', monospace; /* 원하는 폰트 */
+    color: #f0f0f0; /* 본문 색상 */
+    line-height: 1.6;
+  }
+  

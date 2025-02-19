@@ -37,6 +37,7 @@ exclude:
 # 언어 설정
 lang: en
 
+skin: midnight  # 다크 테마 적용
 # 사이트 URL (GitHub Pages에서 커스텀 도메인 쓸 경우 여기에 설정)
 url:
 

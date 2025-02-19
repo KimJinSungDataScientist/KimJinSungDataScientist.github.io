@@ -38,4 +38,4 @@ permalink: /publications/
   *J. S. Kim, H. J. Ko, W. Kim, B. H. Yun, S. Y. Park, B. R. Kim, J. H. Lee*, G. H. Kim, J. W. Kim, Poster Presentation, Korean Society for Digital Therapy Spring Conference, 2024*
 
 - **Development and Effectiveness of an AI Chatbot-Based Mobile Cognitive Screening and Customized Training Application for Preventing Dementia: Older Adults Living in Rural Areas of South Korea**  
-  *B. Yun, W. Kim, H. Ko, S. Park, J. Kim, G. H. Kim, B. Kim, J. H. Lee*, J. W. Kim, Archives of Design Research, 2024 (Cover feature; SCOPUS)*
+  *B. H. Yun, W. Kim, H. J. Ko, S. Y. Park, J. S. Kim, G. H. Kim, B. R. Kim, J. H. Lee, J. W. Kim, Archives of Design Research, 2024 (Cover feature; SCOPUS)*
