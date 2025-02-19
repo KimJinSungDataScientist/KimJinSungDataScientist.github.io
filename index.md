@@ -14,6 +14,7 @@ permalink: /
     AI & Informatics, Sangmyung University<br>
     <br>
     <br>
+    <br>
   </p>
 </div>
 
