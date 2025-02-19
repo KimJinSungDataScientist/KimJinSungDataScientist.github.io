@@ -1,40 +1,39 @@
 .hero {
-    /* 박스가 화면 위쪽에서 60px 떨어져 시작, 아래는 20px 여백 */
+    /* 화면 상단/하단 간격: 위로 60px, 아래로 20px */
     margin: 60px auto 20px auto;
   
-    /* 박스 폭 제한 */
+    /* 너무 넓어지지 않도록 최대 폭 제한 */
     max-width: 800px;
   
-    /* 배경 그라데이션 및 둥근 모서리 */
+    /* 박스 배경 및 둥근 모서리 */
     background: linear-gradient(135deg, #1a1a1a, #333333);
     border-radius: 8px;
   
-    /* Flex를 사용하되, 수직 정렬은 상단에 고정(flex-start), 가로는 가운데 정렬 */
-    display: flex;
-    flex-direction: column;
-    align-items: center;       /* 수평(가로) 중앙 정렬 */
-    justify-content: flex-start; /* 수직(세로) 상단 배치 */
+    /* 블록 요소로서 내부 여백만 설정 */
+    display: block;
   
-    /* 텍스트를 중앙 정렬(가로 방향) */
+    /* 박스 안쪽 여백: 10px 정도로 최소화 (더 줄이면 텍스트가 상단에 더 가까워짐) */
+    padding: 10px;
+  
+    /* 텍스트를 가로 방향으로만 중앙 정렬 */
     text-align: center;
-  
-    /* 박스 내부 패딩을 약간만 주어 텍스트가 바로 위에 붙지는 않게 */
-    padding: 0px 0;
-    /* min-height: 제거 -> 내용만큼만 박스가 늘어남 */
   }
   
+  /* 제목 스타일 */
   .hero-title {
     font-size: 1.8rem;
     color: #00f0ff;
-    margin: 0 0 8px 0; /* 아래쪽으로만 8px 정도 간격 */
+    margin: 0 0 6px 0; /* 아래쪽으로만 약간 간격 */
   }
   
+  /* 부제목 스타일 */
   .hero-subtitle {
     font-size: 1rem;
     color: #eeeeee;
-    margin: 0; /* 추가 여백 없이 바로 이어지게 */
+    margin: 0; /* 불필요한 여백 제거 */
   }
   
+  /* 강조 색상 */
   .highlight {
     color: #ffd369;
   }
