@@ -1,19 +1,34 @@
 ---
 layout: page
-title: About
+title: Home
 permalink: /
 ---
 
-Hello, Professor Jeong Hyeong-gu!
+## Jinsung Kim
+### Postgraduate Researcher, Sangmyung University
 
-My name is Jinsung Kim. I completed my Bachelor's degree in Human-Centered Intelligence Engineering and Artificial Intelligence Convergence at Sangmyung University, as well as my Master's degree in Intelligent Information Engineering from the same institution. I am currently serving as a Postgraduate Researcher at Sangmyung University, where I receive dedicated guidance in the fields of Human-Computer Interaction (HCI) and digital therapeutics.
+I am a Postgraduate Researcher in Intelligent Information Engineering at Sangmyung University, focusing on bridging the gap between advanced AI technologies and real-world healthcare applications. My primary interests lie in Human-Computer Interaction (HCI) and digital therapeutics, with a special emphasis on older adults. Throughout my undergraduate and Master’s studies, I have explored a wide range of data modalities—neuropsychological, voice (linguistic & acoustic), eye gaze, and biosignals (ECG, PPG, RPPG)—to develop screening tools and digital solutions for dementia, depression, and diabetes.
 
-From my undergraduate days, I have been deeply fascinated by the intersection of HCI and healthcare-focused AI, with a particular emphasis on research concerning the elderly. My work has involved leveraging diverse data sources—including neuropsychology, voice analysis (both linguistic and acoustic), eye gaze tracking, and biosignal monitoring (ECG, PPG, RPPG)—to develop innovative screening tools and digital therapeutic applications for conditions such as dementia, depression, and diabetes.
+During my time at HAII, a digital therapeutics company led by Professor Jinwoo Kim at Yonsei University, I gained hands-on experience working with various hospital and institutional datasets, as well as direct interactions with elderly patients. These opportunities not only strengthened my expertise in machine learning and deep learning but also deepened my commitment to delivering AI-driven solutions that can genuinely improve patient outcomes. My ultimate goal is to develop robust, user-centric digital therapeutics that integrate seamlessly into everyday healthcare.
 
-One of my most significant research endeavors involved an in-depth study of eye-tracking methodologies. In this project, I visualized previously unexplored patterns, formalized these observations mathematically, validated them statistically, and applied machine learning models for decoding analysis. Although the resulting paper is still under review, the rigorous two-to-three-year process left me with an immense sense of accomplishment, reigniting my passion for uncovering hidden insights in complex data.
+---
 
-Moreover, during my Master's studies, I had the privilege of working as a machine learning technology advisor at HAII—a digital therapeutics company led by Professor Jinwoo Kim at Yonsei University. This role provided me with hands-on experience interacting with diverse datasets from hospitals and institutions, as well as direct engagement with elderly patients. These experiences have not only enhanced my practical expertise in machine learning and deep learning but also broadened my perspective on applying these technologies to solve real-world healthcare challenges.
+## Selected Publications
 
-My research interests span reinforcement learning for cognitive assessments, the development of multimodal digital biomarkers, and the practical application of AI to diagnose and manage chronic conditions. I am committed to bridging the gap between theoretical research and clinical practice, striving to develop solutions that improve the quality of life for older adults.
+### 2025
+- **Investigating the Validity of Digital Biomarkers in the Preclinical Screening of Cognitive Normal, Amyloid-β− MCI and Amyloid-β+ MCI**  
+  *W. Kim*, **J. S. Kim*, H. J. Ko, B. H. Yun, Y. Kim, D. H. Kim, U. J. Kwon, S. K. Lim, B. R. Kim, J. H. Lee*, G. H. Kim*, J. W. Kim, Alzheimer’s and Dementia, 2025 (SCIE)
 
-Thank you for visiting my homepage. I look forward to sharing my research journey and contributions in the realms of HCI and digital therapeutics.
+### 2024
+- **A Preliminary Feasibility Study on Screening Cognitive Impairment Based on Multi-Modal Biomarkers and Stacking Ensemble AI Approach**  
+  *W. Kim*, **J. S. Kim*, H. J. Ko, B. H. Yun, Y. Y. Kim, D. H. Kim, U. J. Kwon, S. K. Lim, B. R. Kim, J. H. Lee*, G. H. Kim, J. W. Kim, Alzheimer’s and Dementia, 2024 (SCIE)
+
+- **Development and Effectiveness of an AI Chatbot-Based Mobile Cognitive Screening and Customized Training Application for Preventing Dementia**  
+  B. Yun, W. Kim, H. Ko, S. Park, J. Kim, G. H. Kim, B. Kim, J. H. Lee*, J. W. Kim, *Archives of Design Research*, 2024 (Cover feature; SCOPUS)
+
+### Under Review / Accepted
+- **Optimising the Neuropsychological Test for Screening People with Mild Cognitive Impairment Using Hierarchical Reinforcement Learning Agent** (Accepted)  
+- **From Prodromal to Preclinical: Detecting Amyloid-Beta Through Mobile Gaze Analysis**  
+- **Substitute or Supplement?: The Role of Multi-Modal Digital Biomarkers on the Mobile Assessment Tools for Early Screening of Cognitive Impairment**  
+- **Rapid yet reliable: Optimising Mobile Cognitive Assessments Tool for Older Adults**  
+- **Gaze Instability in Mild Cognitive Impairment**
