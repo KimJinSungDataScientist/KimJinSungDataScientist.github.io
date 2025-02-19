@@ -12,6 +12,7 @@ permalink: /
   <p class="hero-subtitle">
     Master’s Degree Researcher |<br>
     AI & Informatics, Sangmyung University<br><br><br>
+    A
   </p>
 </div>
 
