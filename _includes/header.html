@@ -1,7 +1,9 @@
 <div class="wrapper">
+  <!-- 사이드바 관련 스크립트 제거 -->
+  <!--
   <script>
     function clickSidebarButton() {
-      const elem = document.getElementById("site-sidebar")
+      const elem = document.getElementById("site-sidebar");
       if (elem.style.display == "none" || elem.style.display == "") {
         elem.style.display = "block";
       } else {
@@ -9,16 +11,21 @@
       }
     }
   </script>
+  -->
+
+  <!-- 사이트 아바타/버튼 제거 -->
+  <!--
   <a class="site-sidebar-button" onclick="clickSidebarButton()">
-    {%- if site.avatar contains "://" -%}
-      {%- assign avatar = site.avatar -%}
-    {%- else -%}
-      {%- assign avatar = site.avatar | relative_url -%}
-    {%- endif -%}
     <i class="far fa-user"></i>
   </a>
+  -->
 
-  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <!-- 사이트 제목 제거 -->
+  <!--
+  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    {{ site.title | escape }}
+  </a>
+  -->
 
   {% if site.data.navigation %}
     <nav class="site-nav">
@@ -39,15 +46,19 @@
                 <a href="javascript:void(0)" class="dropbtn">{{ nav.title | escape }}</a>
                 <div class="dropdown-content">
                   {%- for link in nav.sublinks %}
-                    <a class="{% if page.url == link.url %}current-page{% endif %}" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
+                    <a class="{% if page.url == link.url %}current-page{% endif %}"
+                       href="{{ link.url | relative_url }}">{{ link.title | escape }}</a>
                   {%- endfor %}
                 </div>
               </li>
             {% else %}
-              <li><a class="{% if page.url == nav.url %}current-page{% endif %}" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a></li>
+              <li>
+                <a class="{% if page.url == nav.url %}current-page{% endif %}"
+                   href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
+              </li>
             {% endif %}
           {%- endif -%}
-        {%- endfor -%}
+        {%- endfor %}
       </ul>
     </nav>
   {% endif %}
