@@ -3,9 +3,6 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-
-# Publications
-
 ## Working Papers
 
 - **Optimising the Neuropsychological Test for Screening People with Mild Cognitive Impairment Using Hierarchical Reinforcement Learning Agent**  

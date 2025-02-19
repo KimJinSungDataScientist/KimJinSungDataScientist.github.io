@@ -3,10 +3,6 @@ layout: page
 title: Home
 permalink: /
 ---
-<div class="hero">
-  <h2 class="hero-title">Hello, I'm <i class="fas fa-robot"></i> <span class="highlight">Jinsung Kim</span></h2>
-  <p class="hero-subtitle">AI & Informatics Researcher at Sangmyung University</p>
-</div>
 
 ## Jinsung Kim
 ### Master’s Degree Researcher | AI & Informatics, Sangmyung University
