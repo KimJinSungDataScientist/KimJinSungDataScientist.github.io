@@ -17,7 +17,7 @@ email: kimjinsung8290@naver.com
 
 # 사용 중인 플러그인들
 plugins:
-  - jekyll-seo-tag
+  - jekyll-seo-tag\
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -37,7 +37,6 @@ exclude:
 # 언어 설정
 lang: en
 
-skin: midnight  # 다크 테마 적용
 # 사이트 URL (GitHub Pages에서 커스텀 도메인 쓸 경우 여기에 설정)
 url:
 
