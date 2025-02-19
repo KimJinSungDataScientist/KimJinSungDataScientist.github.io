@@ -1,40 +1,45 @@
 .hero {
-    /* 화면 상단/하단에 20px 정도 여백, 가운데 정렬 */
-    margin: 20px auto;
+    /* 상단에 60px, 하단에 20px 정도 여백을 줘서 페이지 상단과 떨어져 보이도록 */
+    margin: 60px auto 20px auto;
   
-    /* 최대 폭 800px로 제한 (너무 넓지 않게) */
+    /* 너무 넓어지지 않도록 최대 폭 제한 */
     max-width: 800px;
   
-    /* 세로 크기가 너무 커 보이지 않도록 최소 높이만 지정 */
-    min-height: 150px;
+    /* 박스가 너무 커 보이지 않도록 최소 높이를 작게 설정 */
+    min-height: 120px;
   
-    /* 상자 내부 패딩을 작게 조정 */
-    padding: 10px;
+    /* 박스 내부 패딩을 줄여서 상하 폭을 더 줄임 */
+    padding: 8px;
   
+    /* 배경과 둥근 모서리 */
     background: linear-gradient(135deg, #1a1a1a, #333333);
     border-radius: 8px;
   
-    /* flex를 이용해 수직/수평 중앙 정렬 */
+    /* 수직/수평 중앙 정렬 */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* 수직 중앙 */
-    align-items: center;     /* 수평 중앙 */
+    justify-content: center;
+    align-items: center;
   
+    /* 텍스트 중앙 정렬 */
     text-align: center;
   }
   
+  /* 제목 스타일 */
   .hero-title {
     font-size: 1.8rem;
     color: #00f0ff;
     margin-bottom: 5px;
   }
   
+  /* 부제목 스타일 */
   .hero-subtitle {
     font-size: 1rem;
     color: #eeeeee;
-    margin: 0; /* 불필요한 여백 제거 */
+    margin: 0;
   }
   
+  /* 강조 색상 */
   .highlight {
     color: #ffd369;
   }
