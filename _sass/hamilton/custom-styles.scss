@@ -3,7 +3,7 @@
     margin: 20px auto;
   
     /* 최대 폭 600px로 제한해 박스가 너무 넓지 않도록 함 */
-    max-width: 200px;
+    max-width: 600px;
   
     /* 그라데이션 배경 및 둥근 모서리 */
     background: linear-gradient(135deg, #1a1a1a, #333333);
@@ -13,7 +13,7 @@
     display: block;
   
     /* 내부 패딩을 5px로 최소화해 박스 자체 높이를 작게 */
-    padding: 1px;
+    padding: 5px;
   
     /* 텍스트 가로 중앙 정렬 */
     text-align: center;
