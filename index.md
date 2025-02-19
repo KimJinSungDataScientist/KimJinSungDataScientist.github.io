@@ -14,6 +14,7 @@ permalink: /
     AI & Informatics, Sangmyung University
   </p>
 </div>
+
 ## Jinsung Kim
 
 Hello, my name is Jinsung Kim. I am currently pursuing my M.S. in AI and Informatics at Sangmyung University, expecting to complete my degree by August 2024. I also hold a B.S. in Human-Centered AI with a double major in Artificial Intelligence, both from Sangmyung University. 

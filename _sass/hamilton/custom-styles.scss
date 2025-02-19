@@ -1,53 +1,41 @@
-/* _sass/hamilton/custom-styles.scss */
-
-/* Hero Section */
 .hero {
-    /* 페이지 상단에 간격을 주고 싶다면 margin-top 조정 */
-    margin: 40px auto 40px auto; /* top: 40px, bottom: 40px */
+    /* 화면 상단/하단에 20px 정도 여백, 가운데 정렬 */
+    margin: 20px auto;
   
-    /* 폭 제한으로 너무 넓어지지 않도록 */
+    /* 최대 폭 800px로 제한 (너무 넓지 않게) */
     max-width: 800px;
   
-    /* 패딩(세로 높이)을 줄여서 크기가 너무 커 보이지 않도록 조정 */
-    padding: 20px 30px;
+    /* 세로 크기가 너무 커 보이지 않도록 최소 높이만 지정 */
+    min-height: 150px;
   
-    text-align: center;
+    /* 상자 내부 패딩을 작게 조정 */
+    padding: 10px;
+  
     background: linear-gradient(135deg, #1a1a1a, #333333);
     border-radius: 8px;
+  
+    /* flex를 이용해 수직/수평 중앙 정렬 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수직 중앙 */
+    align-items: center;     /* 수평 중앙 */
+  
+    text-align: center;
   }
   
   .hero-title {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: #00f0ff;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #eeeeee;
-    margin: 0;
-    text-align: center; /* 중앙 정렬 */
+    margin: 0; /* 불필요한 여백 제거 */
   }
   
-  /* 강조 색상 */
   .highlight {
     color: #ffd369;
-  }
-  
-  /* 본문 폰트, 색상 등 */
-  .page-content {
-    font-family: 'Fira Code', monospace;
-    color: #f0f0f0;
-    line-height: 1.6;
-  }
-  
-  /* 상단 큰 제목(page-header) 숨기기 */
-  .page-header {
-    display: none;
-  }
-  
-  /* 상단 전체 패딩이 필요 없으면 최소화 */
-  .wrapper {
-    padding-top: 0;
   }
   
