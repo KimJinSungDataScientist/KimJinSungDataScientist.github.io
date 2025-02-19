@@ -1,39 +1,42 @@
 .hero {
-    /* 화면 상단/하단 간격: 위로 60px, 아래로 20px */
-    margin: 60px auto 20px auto;
+    /* 상단/하단 여백을 20px로 줄여서 화면에 차지하는 공간을 줄임 */
+    margin: 20px auto;
   
-    /* 너무 넓어지지 않도록 최대 폭 제한 */
-    max-width: 800px;
+    /* 최대 폭 600px로 제한해 박스가 너무 넓지 않도록 함 */
+    max-width: 400px;
   
-    /* 박스 배경 및 둥근 모서리 */
+    /* 그라데이션 배경 및 둥근 모서리 */
     background: linear-gradient(135deg, #1a1a1a, #333333);
     border-radius: 8px;
   
-    /* 블록 요소로서 내부 여백만 설정 */
+    /* 일반 블록(display: block)으로 처리, 수직 중앙정렬 X */
     display: block;
   
-    /* 박스 안쪽 여백: 10px 정도로 최소화 (더 줄이면 텍스트가 상단에 더 가까워짐) */
-    padding: 10px;
+    /* 내부 패딩을 5px로 최소화해 박스 자체 높이를 작게 */
+    padding: 5px;
   
-    /* 텍스트를 가로 방향으로만 중앙 정렬 */
+    /* 텍스트 가로 중앙 정렬 */
     text-align: center;
   }
   
-  /* 제목 스타일 */
   .hero-title {
-    font-size: 1.8rem;
+    /* 폰트 크기를 조금 줄여서 박스 안에서 크게 보이지 않게 */
+    font-size: 1.5rem;
     color: #00f0ff;
-    margin: 0 0 6px 0; /* 아래쪽으로만 약간 간격 */
+  
+    /* 아래쪽만 4px 정도 띄워서 제목과 부제목 사이에 작은 간격 */
+    margin: 0 0 4px 0;
   }
   
-  /* 부제목 스타일 */
   .hero-subtitle {
-    font-size: 1rem;
+    /* 부제목 폰트도 살짝 작게 */
+    font-size: 0.9rem;
     color: #eeeeee;
-    margin: 0; /* 불필요한 여백 제거 */
+  
+    /* 불필요한 바깥 여백 제거 */
+    margin: 0;
   }
   
-  /* 강조 색상 */
   .highlight {
     color: #ffd369;
   }
