@@ -163,7 +163,7 @@ The navigation bar also supports dropdown submenus:
 
 ### Social Media
 
-You can create a file `_data/social.yml` to configure links to your social media. For example,
+You can create a file `_data/social.yml` to configure links to your social media. For example,,
 
 ```yml
 - title: Twitter
